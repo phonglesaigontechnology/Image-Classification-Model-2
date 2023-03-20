@@ -1,0 +1,6 @@
+pyyaml
+torch
+torchvision
+tensorboardX
+mlflow
+tensorboard

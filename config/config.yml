@@ -1,0 +1,29 @@
+# Data
+data_dir: ./data
+result_dir: ./model
+height: 32
+width: 32
+channel: 3
+
+# Training hyperparameters
+model_name: "vgg16" # `cnn1`, `cnn2` or `vgg16`
+learning_rate: 0.01
+num_epochs: 100
+batch_size: 2
+test_batch_size: 2
+num_workers: 4 
+device: "cuda"
+checkpoint_dir: "./model"
+device: "cpu"
+
+# optim
+optim_type: "sgd"
+
+
+# tensorboard
+tensorboard_logdir: "./log/tensorboard"
+
+# mlflow
+mlflow_tracking_uri: "./mlruns"
+mlflow_experiment_name: "MyModel"
+
