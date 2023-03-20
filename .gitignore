@@ -1,6 +1,6 @@
 # Env
 venv/
-data/*
+# data/*
 !data/.keep
 log/*
 !log/.keep
