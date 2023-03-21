@@ -5,6 +5,7 @@ def save_checkpoint(state, filename="checkpoint.pth"):
     """
     Saves the model state as a checkpoint file.
     """
+    # mlflow.pytorch.save_model() 
     torch.save(state, filename)
 
 def load_checkpoint(model, optimizer, filename="checkpoint.pth"):
